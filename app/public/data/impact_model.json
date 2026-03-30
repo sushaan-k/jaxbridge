@@ -1,0 +1,230 @@
+{
+  "models": {
+    "physician_to_life_exp": {
+      "predictor": "physician_access",
+      "target": "life_expectancy",
+      "description": "Effect of physician access on life expectancy",
+      "coefficient": -0.01149,
+      "intercept": 76.0315,
+      "r_squared": 0.0002,
+      "correlation_r": -0.0151,
+      "p_value": 0.932542,
+      "n_samples": 34,
+      "predictor_range": [
+        0.0,
+        18.02
+      ],
+      "target_range": [
+        68.66,
+        82.95
+      ]
+    },
+    "food_desert_to_obesity": {
+      "predictor": "food_desert_rate",
+      "target": "obesity",
+      "description": "Effect of food desert severity on obesity rate",
+      "coefficient": -0.008488,
+      "intercept": 35.0711,
+      "r_squared": 0.0006,
+      "correlation_r": -0.024,
+      "p_value": 0.892937,
+      "n_samples": 34,
+      "predictor_range": [
+        2.5,
+        86.1
+      ],
+      "target_range": [
+        25.8,
+        48.0
+      ]
+    },
+    "parks_to_inactivity": {
+      "predictor": "park_acres_per_1k",
+      "target": "physical_inactivity",
+      "description": "Effect of park acreage on physical inactivity",
+      "coefficient": -0.001125,
+      "intercept": 27.8812,
+      "r_squared": 0.0052,
+      "correlation_r": -0.072,
+      "p_value": 0.685845,
+      "n_samples": 34,
+      "predictor_range": [
+        0.0,
+        2057.66
+      ],
+      "target_range": [
+        16.9,
+        45.4
+      ]
+    },
+    "mh_providers_to_mental_health": {
+      "predictor": "mental_health_per_10k",
+      "target": "poor_mental_health",
+      "description": "Effect of mental health provider density on poor mental health",
+      "coefficient": 0.003271,
+      "intercept": 19.1633,
+      "r_squared": 0.0012,
+      "correlation_r": 0.0345,
+      "p_value": 0.8464,
+      "n_samples": 34,
+      "predictor_range": [
+        0.0,
+        127.57
+      ],
+      "target_range": [
+        14.9,
+        25.3
+      ]
+    },
+    "insurance_to_checkups": {
+      "predictor": "insurance_rate",
+      "target": "doctor_checkup",
+      "description": "Effect of insurance coverage on regular checkups",
+      "coefficient": -0.448311,
+      "intercept": 115.6011,
+      "r_squared": 0.162,
+      "correlation_r": -0.4025,
+      "p_value": 0.018263,
+      "n_samples": 34,
+      "predictor_range": [
+        80.6,
+        100.0
+      ],
+      "target_range": [
+        62.8,
+        81.0
+      ]
+    },
+    "food_desert_to_life_exp": {
+      "predictor": "food_desert_rate",
+      "target": "life_expectancy",
+      "description": "Effect of food desert severity on life expectancy",
+      "coefficient": -0.013967,
+      "intercept": 76.8053,
+      "r_squared": 0.0053,
+      "correlation_r": -0.0725,
+      "p_value": 0.683652,
+      "n_samples": 34,
+      "predictor_range": [
+        2.5,
+        86.1
+      ],
+      "target_range": [
+        68.66,
+        82.95
+      ]
+    },
+    "inactivity_to_life_exp": {
+      "predictor": "physical_inactivity",
+      "target": "life_expectancy",
+      "description": "Effect of physical inactivity on life expectancy",
+      "coefficient": -0.334212,
+      "intercept": 85.2558,
+      "r_squared": 0.5644,
+      "correlation_r": -0.7513,
+      "p_value": 0.0,
+      "n_samples": 34,
+      "predictor_range": [
+        16.9,
+        45.4
+      ],
+      "target_range": [
+        68.66,
+        82.95
+      ]
+    },
+    "obesity_to_life_exp": {
+      "predictor": "obesity",
+      "target": "life_expectancy",
+      "description": "Effect of obesity rate on life expectancy",
+      "coefficient": -0.395363,
+      "intercept": 89.6737,
+      "r_squared": 0.528,
+      "correlation_r": -0.7266,
+      "p_value": 1e-06,
+      "n_samples": 34,
+      "predictor_range": [
+        25.8,
+        48.0
+      ],
+      "target_range": [
+        68.66,
+        82.95
+      ]
+    },
+    "income_to_life_exp": {
+      "predictor": "median_income",
+      "target": "life_expectancy",
+      "description": "Effect of median income on life expectancy",
+      "coefficient": 0.000107,
+      "intercept": 68.2759,
+      "r_squared": 0.5623,
+      "correlation_r": 0.7498,
+      "p_value": 1e-06,
+      "n_samples": 33,
+      "predictor_range": [
+        30514.0,
+        119294.0
+      ],
+      "target_range": [
+        68.66,
+        82.95
+      ]
+    }
+  },
+  "cost_benchmarks": {
+    "physician": {
+      "unit_cost": 250000,
+      "label": "Primary Care Physician (annual salary)",
+      "unit": "per physician"
+    },
+    "mental_health": {
+      "unit_cost": 150000,
+      "label": "Mental Health Provider (annual salary)",
+      "unit": "per provider"
+    },
+    "grocery_store": {
+      "unit_cost": 2000000,
+      "label": "Community Grocery Store",
+      "unit": "per location"
+    },
+    "food_pantry": {
+      "unit_cost": 200000,
+      "label": "Food Pantry / Distribution Site",
+      "unit": "per location"
+    },
+    "park_acre": {
+      "unit_cost": 50000,
+      "label": "Park Development",
+      "unit": "per acre"
+    },
+    "child_care": {
+      "unit_cost": 500000,
+      "label": "Child Care Center",
+      "unit": "per center"
+    },
+    "insurance_subsidy": {
+      "unit_cost": 5000,
+      "label": "Insurance Subsidy",
+      "unit": "per person per year"
+    }
+  },
+  "county_averages": {
+    "life_expectancy": 76.4,
+    "median_income": 71277,
+    "obesity": 34.3,
+    "physical_inactivity": 27.1,
+    "uninsured_rate": 13.6,
+    "svi_score": 0.697,
+    "smoking": 13.9
+  },
+  "methodology": {
+    "description": "Cross-sectional linear regressions across Jacksonville ZIP codes.",
+    "limitations": [
+      "Small sample size (n=34 ZIP codes)",
+      "Cross-sectional correlations, not causal estimates",
+      "Ecological fallacy: ZIP-level associations may not apply to individuals",
+      "Coefficients should be interpreted as directional estimates, not precise predictions"
+    ]
+  }
+}

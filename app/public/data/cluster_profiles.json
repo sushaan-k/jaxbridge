@@ -1,0 +1,112 @@
+{
+  "0": {
+    "label": "Critical Desert",
+    "description": "Severe resource gaps across all dimensions. Lowest life expectancy, highest poverty, worst health outcomes. Requires comprehensive multi-resource investment.",
+    "zip_codes": [
+      "32202",
+      "32206",
+      "32208",
+      "32209",
+      "32254"
+    ],
+    "count": 5,
+    "avg_metrics": {
+      "life_expectancy": 70.8,
+      "median_income": 36172.0,
+      "obesity": 46.4,
+      "physical_inactivity": 42.3,
+      "svi_score": 0.93,
+      "rdcs_normalized": 0.884,
+      "food_desert_rate": 62.4,
+      "uninsured_rate": 20.7,
+      "poverty_rate": 31.0,
+      "population": 104411.0
+    }
+  },
+  "1": {
+    "label": "Resourced Suburban",
+    "description": "Well-resourced suburban communities with highest life expectancy and income. Low RDCS indicates strong existing infrastructure.",
+    "zip_codes": [
+      "32212",
+      "32223",
+      "32256",
+      "32257",
+      "32258",
+      "32266",
+      "32222",
+      "32224",
+      "32225",
+      "32226",
+      "32227",
+      "32233",
+      "32234",
+      "32246",
+      "32250"
+    ],
+    "count": 15,
+    "avg_metrics": {
+      "life_expectancy": 78.3,
+      "median_income": 90220.0,
+      "obesity": 30.5,
+      "physical_inactivity": 22.5,
+      "svi_score": 0.278,
+      "rdcs_normalized": 0.229,
+      "food_desert_rate": 54.4,
+      "uninsured_rate": 11.7,
+      "poverty_rate": 7.4,
+      "population": 443434.0
+    }
+  },
+  "2": {
+    "label": "Struggling Suburban",
+    "description": "Large populations with moderate-to-high needs. Not the worst per-capita rates, but massive absolute numbers of underserved residents.",
+    "zip_codes": [
+      "32205",
+      "32210",
+      "32211",
+      "32216",
+      "32217",
+      "32277",
+      "32218",
+      "32219",
+      "32220",
+      "32221",
+      "32244"
+    ],
+    "count": 11,
+    "avg_metrics": {
+      "life_expectancy": 75.6,
+      "median_income": 68078.0,
+      "obesity": 35.7,
+      "physical_inactivity": 28.8,
+      "svi_score": 0.703,
+      "rdcs_normalized": 0.544,
+      "food_desert_rate": 61.0,
+      "uninsured_rate": 14.4,
+      "poverty_rate": 14.2,
+      "population": 426426.0
+    }
+  },
+  "3": {
+    "label": "Urban Transitional",
+    "description": "Small urban neighborhoods with good resource access (low RDCS) but mixed health outcomes. Dense, walkable areas with older housing stock.",
+    "zip_codes": [
+      "32204",
+      "32207",
+      "32228"
+    ],
+    "count": 3,
+    "avg_metrics": {
+      "life_expectancy": 74.8,
+      "median_income": 65148.0,
+      "obesity": 31.4,
+      "physical_inactivity": 25.0,
+      "svi_score": 0.657,
+      "rdcs_normalized": 0.147,
+      "food_desert_rate": 52.8,
+      "uninsured_rate": 15.0,
+      "poverty_rate": 10.6,
+      "population": 46371.0
+    }
+  }
+}

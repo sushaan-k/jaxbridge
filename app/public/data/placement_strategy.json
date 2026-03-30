@@ -1,0 +1,2565 @@
+{
+  "methodology": "Placement optimization using SCAN spatial attention weights for spillover modeling, Random Forest feature importance for need assessment, MiroFish agent simulation for adoption likelihood and sentiment, and graph centrality analysis for network effects. Geographic diversity enforced via diminishing returns on co-located resources.",
+  "placements": [
+    {
+      "resource": {
+        "id": "health_center",
+        "name": "Community Health Center",
+        "cost": "$2.5M/yr",
+        "annual_cost": 2500000,
+        "features": [
+          "Primary care",
+          "Mental health",
+          "Chronic disease mgmt",
+          "Pharmacy"
+        ],
+        "impact_features": [
+          "uninsured_rate",
+          "physician_access",
+          "high_blood_pressure"
+        ],
+        "description": "Federally qualified health center with sliding fee scale",
+        "primary_need": "healthcare"
+      },
+      "recommended_zip": {
+        "zip": "32209",
+        "name": "ZIP 32209",
+        "score": 0.602,
+        "need": 0.126,
+        "spillover": 1.0,
+        "adoption": 0.76,
+        "sentiment": 0.201,
+        "population": 34657,
+        "life_expectancy": 68.7,
+        "rdcs": 0.91,
+        "projected_le_gain": 0.4,
+        "projected_lives_impacted": 171,
+        "cost_per_life_year": 14588,
+        "top_neighbors": [
+          {
+            "zip": "32202",
+            "weight": 1.0,
+            "name": ""
+          },
+          {
+            "zip": "32204",
+            "weight": 1.0,
+            "name": ""
+          },
+          {
+            "zip": "32205",
+            "weight": 1.0,
+            "name": ""
+          }
+        ],
+        "deficit_breakdown": {
+          "uninsured_rate": 19.5,
+          "physician_access": 4.6,
+          "high_blood_pressure": 51.9
+        },
+        "mirofish": {
+          "adoption_rate": 1.0,
+          "avg_sentiment": 0.757,
+          "agents_simulated": 15,
+          "total_weekly_visits": 24,
+          "top_barriers": [
+            [
+              "stigma around mental health services",
+              2
+            ],
+            [
+              "cost concerns despite sliding fee scale",
+              2
+            ],
+            [
+              "transportation costs to get to the health center",
+              1
+            ],
+            [
+              "concerns about not speaking fluent english and navigating the center",
+              1
+            ],
+            [
+              "feeling overwhelmed with multiple health issues at once",
+              1
+            ]
+          ],
+          "featured_quotes": [
+            {
+              "role": "Single Mother",
+              "age": 38,
+              "quote": "Maybe this health center can finally get me the help I need to manage my weight and depression, it's been so hard to take care of myself and my kids on my own.",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Elderly Veteran",
+              "age": 69,
+              "quote": "A community health center right here in Jacksonville would be a blessing, especially with the pharmacy on site, it'll make managing my meds so much easier",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Young Worker",
+              "age": 20,
+              "quote": "This health center is a game-changer for me and my community; I finally have a chance to prioritize my health without breaking the bank.",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Retired Teacher",
+              "age": 71,
+              "quote": "This Community Health Center might be just what I need to get my health back on track after years of struggling with arthritis!",
+              "sentiment": 0.8
+            }
+          ]
+        }
+      },
+      "top_5": [
+        {
+          "zip": "32209",
+          "name": "ZIP 32209",
+          "score": 0.602,
+          "need": 0.126,
+          "spillover": 1.0,
+          "adoption": 0.76,
+          "sentiment": 0.201,
+          "population": 34657,
+          "life_expectancy": 68.7,
+          "rdcs": 0.91,
+          "projected_le_gain": 0.4,
+          "projected_lives_impacted": 171,
+          "cost_per_life_year": 14588,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "uninsured_rate": 19.5,
+            "physician_access": 4.6,
+            "high_blood_pressure": 51.9
+          },
+          "mirofish": {
+            "adoption_rate": 1.0,
+            "avg_sentiment": 0.757,
+            "agents_simulated": 15,
+            "total_weekly_visits": 24,
+            "top_barriers": [
+              [
+                "stigma around mental health services",
+                2
+              ],
+              [
+                "cost concerns despite sliding fee scale",
+                2
+              ],
+              [
+                "transportation costs to get to the health center",
+                1
+              ],
+              [
+                "concerns about not speaking fluent english and navigating the center",
+                1
+              ],
+              [
+                "feeling overwhelmed with multiple health issues at once",
+                1
+              ]
+            ],
+            "featured_quotes": [
+              {
+                "role": "Single Mother",
+                "age": 38,
+                "quote": "Maybe this health center can finally get me the help I need to manage my weight and depression, it's been so hard to take care of myself and my kids on my own.",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Elderly Veteran",
+                "age": 69,
+                "quote": "A community health center right here in Jacksonville would be a blessing, especially with the pharmacy on site, it'll make managing my meds so much easier",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Young Worker",
+                "age": 20,
+                "quote": "This health center is a game-changer for me and my community; I finally have a chance to prioritize my health without breaking the bank.",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Retired Teacher",
+                "age": 71,
+                "quote": "This Community Health Center might be just what I need to get my health back on track after years of struggling with arthritis!",
+                "sentiment": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "zip": "32208",
+          "name": "ZIP 32208",
+          "score": 0.557,
+          "need": 0.117,
+          "spillover": 1.0,
+          "adoption": 0.783,
+          "sentiment": 0.166,
+          "population": 32699,
+          "life_expectancy": 70.8,
+          "rdcs": 0.82,
+          "projected_le_gain": 0.36,
+          "projected_lives_impacted": 147,
+          "cost_per_life_year": 17053,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "uninsured_rate": 17.4,
+            "physician_access": 1.0,
+            "high_blood_pressure": 50.6
+          },
+          "mirofish": {
+            "adoption_rate": 0.78,
+            "avg_sentiment": 0.17
+          }
+        },
+        {
+          "zip": "32210",
+          "name": "ZIP 32210",
+          "score": 0.525,
+          "need": 0.104,
+          "spillover": 1.0,
+          "adoption": 0.745,
+          "sentiment": 0.094,
+          "population": 65729,
+          "life_expectancy": 74.9,
+          "rdcs": 0.65,
+          "projected_le_gain": 0.27,
+          "projected_lives_impacted": 224,
+          "cost_per_life_year": 11161,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "uninsured_rate": 15.8,
+            "physician_access": 0.6,
+            "high_blood_pressure": 38.1
+          },
+          "mirofish": {
+            "adoption_rate": 0.75,
+            "avg_sentiment": 0.09
+          }
+        },
+        {
+          "zip": "32206",
+          "name": "ZIP 32206",
+          "score": 0.521,
+          "need": 0.12,
+          "spillover": 1.0,
+          "adoption": 0.823,
+          "sentiment": 0.239,
+          "population": 17105,
+          "life_expectancy": 70.7,
+          "rdcs": 0.81,
+          "projected_le_gain": 0.39,
+          "projected_lives_impacted": 83,
+          "cost_per_life_year": 30220,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "uninsured_rate": 18.9,
+            "physician_access": 1.2,
+            "high_blood_pressure": 48.1
+          },
+          "mirofish": {
+            "adoption_rate": 0.82,
+            "avg_sentiment": 0.24
+          }
+        },
+        {
+          "zip": "32254",
+          "name": "ZIP 32254",
+          "score": 0.517,
+          "need": 0.132,
+          "spillover": 1.0,
+          "adoption": 0.829,
+          "sentiment": 0.109,
+          "population": 13927,
+          "life_expectancy": 70.6,
+          "rdcs": 0.88,
+          "projected_le_gain": 0.43,
+          "projected_lives_impacted": 75,
+          "cost_per_life_year": 33354,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "uninsured_rate": 20.1,
+            "physician_access": 0.3,
+            "high_blood_pressure": 45.5
+          },
+          "mirofish": {
+            "adoption_rate": 0.83,
+            "avg_sentiment": 0.11
+          }
+        }
+      ],
+      "total_scored": 20,
+      "report": {
+        "summary": "Place a Community Health Center in ZIP 32209 (ZIP 32209). This serves 34,657 residents in a neighborhood with life expectancy of 68.7 years and RDCS of 0.91.",
+        "rationale": [
+          "Highest composite need score (0.60) for healthcare resources among eligible ZIPs",
+          "Unique MiroFish simulation (15 agents) projects 100% adoption rate with avg sentiment +0.76, 24 weekly visits",
+          "Spatial spillover benefits adjacent neighborhoods: ZIP 32202, ZIP 32204, ZIP 32205",
+          "Projected +0.4 years life expectancy gain at $14,588/life-year saved"
+        ],
+        "key_deficits": [
+          "Uninsured Rate: 19.5%",
+          "Physician Access: 4.6%",
+          "Blood Pressure: 51.9%"
+        ],
+        "alternatives": [
+          "ZIP 32208 (score 0.56, pop 32,699)",
+          "ZIP 32210 (score 0.53, pop 65,729)",
+          "ZIP 32206 (score 0.52, pop 17,105)"
+        ]
+      },
+      "simulation": {
+        "agents_simulated": 15,
+        "adoption_rate": 1.0,
+        "avg_sentiment": 0.757,
+        "total_weekly_visits": 24,
+        "top_barriers": [
+          [
+            "stigma around mental health services",
+            2
+          ],
+          [
+            "cost concerns despite sliding fee scale",
+            2
+          ],
+          [
+            "transportation costs to get to the health center",
+            1
+          ],
+          [
+            "concerns about not speaking fluent english and navigating the center",
+            1
+          ],
+          [
+            "feeling overwhelmed with multiple health issues at once",
+            1
+          ]
+        ],
+        "featured_quotes": [
+          {
+            "role": "Single Mother",
+            "age": 38,
+            "quote": "Maybe this health center can finally get me the help I need to manage my weight and depression, it's been so hard to take care of myself and my kids on my own.",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Elderly Veteran",
+            "age": 69,
+            "quote": "A community health center right here in Jacksonville would be a blessing, especially with the pharmacy on site, it'll make managing my meds so much easier",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Young Worker",
+            "age": 20,
+            "quote": "This health center is a game-changer for me and my community; I finally have a chance to prioritize my health without breaking the bank.",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Retired Teacher",
+            "age": 71,
+            "quote": "This Community Health Center might be just what I need to get my health back on track after years of struggling with arthritis!",
+            "sentiment": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "id": "grocery_coop",
+        "name": "Community Grocery Co-op",
+        "cost": "$2.0M/yr",
+        "annual_cost": 2000000,
+        "features": [
+          "Fresh produce",
+          "SNAP double-value",
+          "Nutrition classes",
+          "Community garden"
+        ],
+        "impact_features": [
+          "food_desert_rate",
+          "obesity",
+          "physical_inactivity"
+        ],
+        "description": "Member-owned grocery with subsidized healthy food",
+        "primary_need": "food"
+      },
+      "recommended_zip": {
+        "zip": "32208",
+        "name": "ZIP 32208",
+        "score": 0.545,
+        "need": 0.066,
+        "spillover": 1.0,
+        "adoption": 0.783,
+        "sentiment": 0.166,
+        "population": 32699,
+        "life_expectancy": 70.8,
+        "rdcs": 0.82,
+        "projected_le_gain": 0.2,
+        "projected_lives_impacted": 83,
+        "cost_per_life_year": 24239,
+        "top_neighbors": [
+          {
+            "zip": "32202",
+            "weight": 1.0,
+            "name": ""
+          },
+          {
+            "zip": "32204",
+            "weight": 1.0,
+            "name": ""
+          },
+          {
+            "zip": "32205",
+            "weight": 1.0,
+            "name": ""
+          }
+        ],
+        "deficit_breakdown": {
+          "food_desert_rate": 75.3,
+          "obesity": 45.7,
+          "physical_inactivity": 40.7
+        },
+        "mirofish": {
+          "adoption_rate": 1.0,
+          "avg_sentiment": 0.8,
+          "agents_simulated": 15,
+          "total_weekly_visits": 30,
+          "top_barriers": [
+            [
+              "cost for membership is still a bit out of my budget",
+              1
+            ],
+            [
+              "transportation to and from store via bus is still a concern",
+              1
+            ],
+            [
+              "depression and obesity make it hard to motivate myself sometimes",
+              1
+            ],
+            [
+              "transportation to get there is still a challenge, even though it's located nearby.",
+              1
+            ],
+            [
+              "my medication and doctor's appointments can make it tough to plan visits there often.",
+              1
+            ]
+          ],
+          "featured_quotes": [
+            {
+              "role": "Young Worker",
+              "age": 24,
+              "quote": "This community grocery co-op seems like a game-changer for me and my neighbors in Westside Jacksonville - we can finally get healthy food at a price we can afford.",
+              "sentiment": 0.9
+            },
+            {
+              "role": "Single Mother",
+              "age": 40,
+              "quote": "This community grocery co-op sounds like a blessing from heaven, I just hope I can make it work for us.",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Elderly Veteran",
+              "age": 75,
+              "quote": "This community grocery co-op sounds like a godsend - I'm definitely going to join and start shopping there regularly.",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Retired Teacher",
+              "age": 68,
+              "quote": "As a retired teacher, I'm excited about the prospect of shopping at a community-owned grocery co-op that promotes healthy eating and education - it's just what our neighborhood needs!",
+              "sentiment": 0.8
+            }
+          ]
+        }
+      },
+      "top_5": [
+        {
+          "zip": "32208",
+          "name": "ZIP 32208",
+          "score": 0.545,
+          "need": 0.066,
+          "spillover": 1.0,
+          "adoption": 0.783,
+          "sentiment": 0.166,
+          "population": 32699,
+          "life_expectancy": 70.8,
+          "rdcs": 0.82,
+          "projected_le_gain": 0.2,
+          "projected_lives_impacted": 83,
+          "cost_per_life_year": 24239,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "food_desert_rate": 75.3,
+            "obesity": 45.7,
+            "physical_inactivity": 40.7
+          },
+          "mirofish": {
+            "adoption_rate": 1.0,
+            "avg_sentiment": 0.8,
+            "agents_simulated": 15,
+            "total_weekly_visits": 30,
+            "top_barriers": [
+              [
+                "cost for membership is still a bit out of my budget",
+                1
+              ],
+              [
+                "transportation to and from store via bus is still a concern",
+                1
+              ],
+              [
+                "depression and obesity make it hard to motivate myself sometimes",
+                1
+              ],
+              [
+                "transportation to get there is still a challenge, even though it's located nearby.",
+                1
+              ],
+              [
+                "my medication and doctor's appointments can make it tough to plan visits there often.",
+                1
+              ]
+            ],
+            "featured_quotes": [
+              {
+                "role": "Young Worker",
+                "age": 24,
+                "quote": "This community grocery co-op seems like a game-changer for me and my neighbors in Westside Jacksonville - we can finally get healthy food at a price we can afford.",
+                "sentiment": 0.9
+              },
+              {
+                "role": "Single Mother",
+                "age": 40,
+                "quote": "This community grocery co-op sounds like a blessing from heaven, I just hope I can make it work for us.",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Elderly Veteran",
+                "age": 75,
+                "quote": "This community grocery co-op sounds like a godsend - I'm definitely going to join and start shopping there regularly.",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Retired Teacher",
+                "age": 68,
+                "quote": "As a retired teacher, I'm excited about the prospect of shopping at a community-owned grocery co-op that promotes healthy eating and education - it's just what our neighborhood needs!",
+                "sentiment": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "zip": "32210",
+          "name": "ZIP 32210",
+          "score": 0.513,
+          "need": 0.054,
+          "spillover": 1.0,
+          "adoption": 0.745,
+          "sentiment": 0.094,
+          "population": 65729,
+          "life_expectancy": 74.9,
+          "rdcs": 0.65,
+          "projected_le_gain": 0.14,
+          "projected_lives_impacted": 116,
+          "cost_per_life_year": 17297,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "food_desert_rate": 66.0,
+            "obesity": 37.4,
+            "physical_inactivity": 31.4
+          },
+          "mirofish": {
+            "adoption_rate": 0.75,
+            "avg_sentiment": 0.09
+          }
+        },
+        {
+          "zip": "32206",
+          "name": "ZIP 32206",
+          "score": 0.508,
+          "need": 0.066,
+          "spillover": 1.0,
+          "adoption": 0.823,
+          "sentiment": 0.239,
+          "population": 17105,
+          "life_expectancy": 70.7,
+          "rdcs": 0.81,
+          "projected_le_gain": 0.21,
+          "projected_lives_impacted": 46,
+          "cost_per_life_year": 43670,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "food_desert_rate": 75.2,
+            "obesity": 46.3,
+            "physical_inactivity": 40.9
+          },
+          "mirofish": {
+            "adoption_rate": 0.82,
+            "avg_sentiment": 0.24
+          }
+        },
+        {
+          "zip": "32254",
+          "name": "ZIP 32254",
+          "score": 0.501,
+          "need": 0.066,
+          "spillover": 1.0,
+          "adoption": 0.829,
+          "sentiment": 0.109,
+          "population": 13927,
+          "life_expectancy": 70.6,
+          "rdcs": 0.88,
+          "projected_le_gain": 0.22,
+          "projected_lives_impacted": 38,
+          "cost_per_life_year": 52996,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "food_desert_rate": 82.1,
+            "obesity": 44.3,
+            "physical_inactivity": 40.5
+          },
+          "mirofish": {
+            "adoption_rate": 0.83,
+            "avg_sentiment": 0.11
+          }
+        },
+        {
+          "zip": "32244",
+          "name": "ZIP 32244",
+          "score": 0.489,
+          "need": 0.054,
+          "spillover": 1.0,
+          "adoption": 0.6,
+          "sentiment": 0.2,
+          "population": 63592,
+          "life_expectancy": 75.6,
+          "rdcs": 0.67,
+          "projected_le_gain": 0.11,
+          "projected_lives_impacted": 88,
+          "cost_per_life_year": 22780,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "food_desert_rate": 70.9,
+            "obesity": 36.4,
+            "physical_inactivity": 29.7
+          },
+          "mirofish": {
+            "adoption_rate": 0.6,
+            "avg_sentiment": 0.2
+          }
+        }
+      ],
+      "total_scored": 20,
+      "report": {
+        "summary": "Place a Community Grocery Co-op in ZIP 32208 (ZIP 32208). This serves 32,699 residents in a neighborhood with life expectancy of 70.8 years and RDCS of 0.82.",
+        "rationale": [
+          "Highest composite need score (0.55) for food resources among eligible ZIPs",
+          "Unique MiroFish simulation (15 agents) projects 100% adoption rate with avg sentiment +0.80, 30 weekly visits",
+          "Spatial spillover benefits adjacent neighborhoods: ZIP 32202, ZIP 32204, ZIP 32205",
+          "Projected +0.2 years life expectancy gain at $24,239/life-year saved"
+        ],
+        "key_deficits": [
+          "Food Desert Rate: 75.3%",
+          "Obesity Rate: 45.7%",
+          "Physical Inactivity: 40.7%"
+        ],
+        "alternatives": [
+          "ZIP 32210 (score 0.51, pop 65,729)",
+          "ZIP 32206 (score 0.51, pop 17,105)",
+          "ZIP 32254 (score 0.50, pop 13,927)"
+        ]
+      },
+      "simulation": {
+        "agents_simulated": 15,
+        "adoption_rate": 1.0,
+        "avg_sentiment": 0.8,
+        "total_weekly_visits": 30,
+        "top_barriers": [
+          [
+            "cost for membership is still a bit out of my budget",
+            1
+          ],
+          [
+            "transportation to and from store via bus is still a concern",
+            1
+          ],
+          [
+            "depression and obesity make it hard to motivate myself sometimes",
+            1
+          ],
+          [
+            "transportation to get there is still a challenge, even though it's located nearby.",
+            1
+          ],
+          [
+            "my medication and doctor's appointments can make it tough to plan visits there often.",
+            1
+          ]
+        ],
+        "featured_quotes": [
+          {
+            "role": "Young Worker",
+            "age": 24,
+            "quote": "This community grocery co-op seems like a game-changer for me and my neighbors in Westside Jacksonville - we can finally get healthy food at a price we can afford.",
+            "sentiment": 0.9
+          },
+          {
+            "role": "Single Mother",
+            "age": 40,
+            "quote": "This community grocery co-op sounds like a blessing from heaven, I just hope I can make it work for us.",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Elderly Veteran",
+            "age": 75,
+            "quote": "This community grocery co-op sounds like a godsend - I'm definitely going to join and start shopping there regularly.",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Retired Teacher",
+            "age": 68,
+            "quote": "As a retired teacher, I'm excited about the prospect of shopping at a community-owned grocery co-op that promotes healthy eating and education - it's just what our neighborhood needs!",
+            "sentiment": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "resource": {
+        "id": "wellness_park",
+        "name": "Urban Wellness Park",
+        "cost": "$4.0M/yr",
+        "annual_cost": 4000000,
+        "features": [
+          "Walking trails",
+          "Outdoor gym",
+          "Rec center",
+          "After-school programs"
+        ],
+        "impact_features": [
+          "physical_inactivity",
+          "obesity",
+          "poor_mental_health_pct"
+        ],
+        "description": "50-acre park with recreation center and fitness classes",
+        "primary_need": "green_space"
+      },
+      "recommended_zip": {
+        "zip": "32210",
+        "name": "ZIP 32210",
+        "score": 0.509,
+        "need": 0.039,
+        "spillover": 1.0,
+        "adoption": 0.745,
+        "sentiment": 0.094,
+        "population": 65729,
+        "life_expectancy": 74.9,
+        "rdcs": 0.65,
+        "projected_le_gain": 0.1,
+        "projected_lives_impacted": 83,
+        "cost_per_life_year": 47999,
+        "top_neighbors": [
+          {
+            "zip": "32202",
+            "weight": 1.0,
+            "name": ""
+          },
+          {
+            "zip": "32204",
+            "weight": 1.0,
+            "name": ""
+          },
+          {
+            "zip": "32205",
+            "weight": 1.0,
+            "name": ""
+          }
+        ],
+        "deficit_breakdown": {
+          "physical_inactivity": 31.4,
+          "obesity": 37.4,
+          "poor_mental_health_pct": 0
+        },
+        "mirofish": {
+          "adoption_rate": 1.0,
+          "avg_sentiment": 0.773,
+          "agents_simulated": 15,
+          "total_weekly_visits": 29,
+          "top_barriers": [
+            [
+              "bus transportation can be irregular and unreliable, making it hard to get to the park, especially with my little ones in tow.",
+              1
+            ],
+            [
+              "i'm not sure i can afford the gym membership or fitness classes on my tight budget.",
+              1
+            ],
+            [
+              "i struggle with mobility issues due to my weight and don't know if the walking trails or outdoor gym are accessible for me.",
+              1
+            ],
+            [
+              "transportation issues, need a ride to get there",
+              1
+            ],
+            [
+              "concerns about safety due to past experiences in the neighborhood",
+              1
+            ]
+          ],
+          "featured_quotes": [
+            {
+              "role": "Elderly Veteran",
+              "age": 73,
+              "quote": "This Urban Wellness Park could be just what I need to get back on my feet, especially with the walking trails and outdoor gym, it's a blessing for our community.",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Young Worker",
+              "age": 25,
+              "quote": "I'm really excited about the Urban Wellness Park - it's exactly what we need in this area to get healthy and active!",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Retired Teacher",
+              "age": 70,
+              "quote": "This new Urban Wellness Park will be a wonderful addition to our community, I'm excited to see what the after-school programs can do for the local youth.",
+              "sentiment": 0.8
+            },
+            {
+              "role": "Teen Student",
+              "age": 18,
+              "quote": "This urban wellness park would be a total game-changer for our community, especially with the after-school programs and outdoor gym!",
+              "sentiment": 0.8
+            }
+          ]
+        }
+      },
+      "top_5": [
+        {
+          "zip": "32210",
+          "name": "ZIP 32210",
+          "score": 0.509,
+          "need": 0.039,
+          "spillover": 1.0,
+          "adoption": 0.745,
+          "sentiment": 0.094,
+          "population": 65729,
+          "life_expectancy": 74.9,
+          "rdcs": 0.65,
+          "projected_le_gain": 0.1,
+          "projected_lives_impacted": 83,
+          "cost_per_life_year": 47999,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "physical_inactivity": 31.4,
+            "obesity": 37.4,
+            "poor_mental_health_pct": 0
+          },
+          "mirofish": {
+            "adoption_rate": 1.0,
+            "avg_sentiment": 0.773,
+            "agents_simulated": 15,
+            "total_weekly_visits": 29,
+            "top_barriers": [
+              [
+                "bus transportation can be irregular and unreliable, making it hard to get to the park, especially with my little ones in tow.",
+                1
+              ],
+              [
+                "i'm not sure i can afford the gym membership or fitness classes on my tight budget.",
+                1
+              ],
+              [
+                "i struggle with mobility issues due to my weight and don't know if the walking trails or outdoor gym are accessible for me.",
+                1
+              ],
+              [
+                "transportation issues, need a ride to get there",
+                1
+              ],
+              [
+                "concerns about safety due to past experiences in the neighborhood",
+                1
+              ]
+            ],
+            "featured_quotes": [
+              {
+                "role": "Elderly Veteran",
+                "age": 73,
+                "quote": "This Urban Wellness Park could be just what I need to get back on my feet, especially with the walking trails and outdoor gym, it's a blessing for our community.",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Young Worker",
+                "age": 25,
+                "quote": "I'm really excited about the Urban Wellness Park - it's exactly what we need in this area to get healthy and active!",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Retired Teacher",
+                "age": 70,
+                "quote": "This new Urban Wellness Park will be a wonderful addition to our community, I'm excited to see what the after-school programs can do for the local youth.",
+                "sentiment": 0.8
+              },
+              {
+                "role": "Teen Student",
+                "age": 18,
+                "quote": "This urban wellness park would be a total game-changer for our community, especially with the after-school programs and outdoor gym!",
+                "sentiment": 0.8
+              }
+            ]
+          }
+        },
+        {
+          "zip": "32206",
+          "name": "ZIP 32206",
+          "score": 0.504,
+          "need": 0.049,
+          "spillover": 1.0,
+          "adoption": 0.823,
+          "sentiment": 0.239,
+          "population": 17105,
+          "life_expectancy": 70.7,
+          "rdcs": 0.81,
+          "projected_le_gain": 0.16,
+          "projected_lives_impacted": 34,
+          "cost_per_life_year": 117819,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "physical_inactivity": 40.9,
+            "obesity": 46.3,
+            "poor_mental_health_pct": 0
+          },
+          "mirofish": {
+            "adoption_rate": 0.82,
+            "avg_sentiment": 0.24
+          }
+        },
+        {
+          "zip": "32254",
+          "name": "ZIP 32254",
+          "score": 0.496,
+          "need": 0.048,
+          "spillover": 1.0,
+          "adoption": 0.829,
+          "sentiment": 0.109,
+          "population": 13927,
+          "life_expectancy": 70.6,
+          "rdcs": 0.88,
+          "projected_le_gain": 0.16,
+          "projected_lives_impacted": 27,
+          "cost_per_life_year": 147567,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "physical_inactivity": 40.5,
+            "obesity": 44.3,
+            "poor_mental_health_pct": 0
+          },
+          "mirofish": {
+            "adoption_rate": 0.83,
+            "avg_sentiment": 0.11
+          }
+        },
+        {
+          "zip": "32244",
+          "name": "ZIP 32244",
+          "score": 0.485,
+          "need": 0.037,
+          "spillover": 1.0,
+          "adoption": 0.6,
+          "sentiment": 0.2,
+          "population": 63592,
+          "life_expectancy": 75.6,
+          "rdcs": 0.67,
+          "projected_le_gain": 0.08,
+          "projected_lives_impacted": 61,
+          "cost_per_life_year": 65281,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "physical_inactivity": 29.7,
+            "obesity": 36.4,
+            "poor_mental_health_pct": 0
+          },
+          "mirofish": {
+            "adoption_rate": 0.6,
+            "avg_sentiment": 0.2
+          }
+        },
+        {
+          "zip": "32218",
+          "name": "ZIP 32218",
+          "score": 0.482,
+          "need": 0.038,
+          "spillover": 1.0,
+          "adoption": 0.6,
+          "sentiment": 0.2,
+          "population": 72905,
+          "life_expectancy": 74.6,
+          "rdcs": 0.51,
+          "projected_le_gain": 0.08,
+          "projected_lives_impacted": 74,
+          "cost_per_life_year": 54216,
+          "top_neighbors": [
+            {
+              "zip": "32202",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32204",
+              "weight": 1.0,
+              "name": ""
+            },
+            {
+              "zip": "32205",
+              "weight": 1.0,
+              "name": ""
+            }
+          ],
+          "deficit_breakdown": {
+            "physical_inactivity": 29.4,
+            "obesity": 38.0,
+            "poor_mental_health_pct": 0
+          },
+          "mirofish": {
+            "adoption_rate": 0.6,
+            "avg_sentiment": 0.2
+          }
+        }
+      ],
+      "total_scored": 20,
+      "report": {
+        "summary": "Place a Urban Wellness Park in ZIP 32210 (ZIP 32210). This serves 65,729 residents in a neighborhood with life expectancy of 74.9 years and RDCS of 0.65.",
+        "rationale": [
+          "Highest composite need score (0.51) for green_space resources among eligible ZIPs",
+          "Unique MiroFish simulation (15 agents) projects 100% adoption rate with avg sentiment +0.77, 29 weekly visits",
+          "Spatial spillover benefits adjacent neighborhoods: ZIP 32202, ZIP 32204, ZIP 32205",
+          "Projected +0.1 years life expectancy gain at $47,999/life-year saved"
+        ],
+        "key_deficits": [
+          "Physical Inactivity: 31.4%",
+          "Obesity Rate: 37.4%",
+          "Poor Mental Health: 0%"
+        ],
+        "alternatives": [
+          "ZIP 32206 (score 0.50, pop 17,105)",
+          "ZIP 32254 (score 0.50, pop 13,927)",
+          "ZIP 32244 (score 0.48, pop 63,592)"
+        ]
+      },
+      "simulation": {
+        "agents_simulated": 15,
+        "adoption_rate": 1.0,
+        "avg_sentiment": 0.773,
+        "total_weekly_visits": 29,
+        "top_barriers": [
+          [
+            "bus transportation can be irregular and unreliable, making it hard to get to the park, especially with my little ones in tow.",
+            1
+          ],
+          [
+            "i'm not sure i can afford the gym membership or fitness classes on my tight budget.",
+            1
+          ],
+          [
+            "i struggle with mobility issues due to my weight and don't know if the walking trails or outdoor gym are accessible for me.",
+            1
+          ],
+          [
+            "transportation issues, need a ride to get there",
+            1
+          ],
+          [
+            "concerns about safety due to past experiences in the neighborhood",
+            1
+          ]
+        ],
+        "featured_quotes": [
+          {
+            "role": "Elderly Veteran",
+            "age": 73,
+            "quote": "This Urban Wellness Park could be just what I need to get back on my feet, especially with the walking trails and outdoor gym, it's a blessing for our community.",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Young Worker",
+            "age": 25,
+            "quote": "I'm really excited about the Urban Wellness Park - it's exactly what we need in this area to get healthy and active!",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Retired Teacher",
+            "age": 70,
+            "quote": "This new Urban Wellness Park will be a wonderful addition to our community, I'm excited to see what the after-school programs can do for the local youth.",
+            "sentiment": 0.8
+          },
+          {
+            "role": "Teen Student",
+            "age": 18,
+            "quote": "This urban wellness park would be a total game-changer for our community, especially with the after-school programs and outdoor gym!",
+            "sentiment": 0.8
+          }
+        ]
+      }
+    }
+  ],
+  "combined_strategy": {
+    "total_cost": "$8.5M/yr",
+    "zips_directly_served": [
+      {
+        "zip": "32209",
+        "resource": "Community Health Center"
+      },
+      {
+        "zip": "32208",
+        "resource": "Community Grocery Co-op"
+      },
+      {
+        "zip": "32210",
+        "resource": "Urban Wellness Park"
+      }
+    ],
+    "zips_spillover": [
+      "32202",
+      "32204",
+      "32205"
+    ],
+    "total_population_served": 133085,
+    "projected_total_le_gain": 0.7
+  },
+  "centrality_ranking": [
+    {
+      "zip": "32202",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32204",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32205",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32206",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32207",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32208",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32209",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32210",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32211",
+      "centrality": 1.0
+    },
+    {
+      "zip": "32212",
+      "centrality": 1.0
+    }
+  ],
+  "topology": {
+    "nodes": [
+      {
+        "id": "32202",
+        "name": "32202",
+        "population": 6023,
+        "life_expectancy": 73.1,
+        "rdcs": 1.0,
+        "placed_resource": null,
+        "adoption": 0.73,
+        "sentiment": 0.12,
+        "lat": 30.33,
+        "lon": -81.655
+      },
+      {
+        "id": "32204",
+        "name": "32204",
+        "population": 9151,
+        "life_expectancy": 75.5,
+        "rdcs": 0.21,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.32,
+        "lon": -81.68
+      },
+      {
+        "id": "32205",
+        "name": "32205",
+        "population": 29148,
+        "life_expectancy": 74.2,
+        "rdcs": 0.49,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.315,
+        "lon": -81.71
+      },
+      {
+        "id": "32206",
+        "name": "32206",
+        "population": 17105,
+        "life_expectancy": 70.7,
+        "rdcs": 0.81,
+        "placed_resource": null,
+        "adoption": 0.82,
+        "sentiment": 0.24,
+        "lat": 30.355,
+        "lon": -81.64
+      },
+      {
+        "id": "32207",
+        "name": "32207",
+        "population": 36998,
+        "life_expectancy": 76.1,
+        "rdcs": 0.13,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.3,
+        "lon": -81.645
+      },
+      {
+        "id": "32208",
+        "name": "32208",
+        "population": 32699,
+        "life_expectancy": 70.8,
+        "rdcs": 0.82,
+        "placed_resource": "Community Grocery Co-op",
+        "adoption": 0.78,
+        "sentiment": 0.17,
+        "lat": 30.385,
+        "lon": -81.665
+      },
+      {
+        "id": "32209",
+        "name": "32209",
+        "population": 34657,
+        "life_expectancy": 68.7,
+        "rdcs": 0.91,
+        "placed_resource": "Community Health Center",
+        "adoption": 0.76,
+        "sentiment": 0.2,
+        "lat": 30.36,
+        "lon": -81.69
+      },
+      {
+        "id": "32210",
+        "name": "32210",
+        "population": 65729,
+        "life_expectancy": 74.9,
+        "rdcs": 0.65,
+        "placed_resource": "Urban Wellness Park",
+        "adoption": 0.75,
+        "sentiment": 0.09,
+        "lat": 30.29,
+        "lon": -81.73
+      },
+      {
+        "id": "32211",
+        "name": "32211",
+        "population": 36762,
+        "life_expectancy": 75.3,
+        "rdcs": 0.71,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.33,
+        "lon": -81.58
+      },
+      {
+        "id": "32216",
+        "name": "32216",
+        "population": 42298,
+        "life_expectancy": 77.2,
+        "rdcs": 0.46,
+        "placed_resource": null,
+        "adoption": 0.79,
+        "sentiment": 0.22,
+        "lat": 30.29,
+        "lon": -81.59
+      },
+      {
+        "id": "32217",
+        "name": "32217",
+        "population": 20221,
+        "life_expectancy": 77.8,
+        "rdcs": 0.41,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.26,
+        "lon": -81.63
+      },
+      {
+        "id": "32223",
+        "name": "32223",
+        "population": 26160,
+        "life_expectancy": 80.7,
+        "rdcs": 0.1,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.2,
+        "lon": -81.65
+      },
+      {
+        "id": "32254",
+        "name": "32254",
+        "population": 13927,
+        "life_expectancy": 70.6,
+        "rdcs": 0.88,
+        "placed_resource": null,
+        "adoption": 0.83,
+        "sentiment": 0.11,
+        "lat": 30.34,
+        "lon": -81.72
+      },
+      {
+        "id": "32256",
+        "name": "32256",
+        "population": 58192,
+        "life_expectancy": 79.5,
+        "rdcs": 0.25,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.22,
+        "lon": -81.55
+      },
+      {
+        "id": "32257",
+        "name": "32257",
+        "population": 42904,
+        "life_expectancy": 78.5,
+        "rdcs": 0.38,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.225,
+        "lon": -81.59
+      },
+      {
+        "id": "32258",
+        "name": "32258",
+        "population": 40408,
+        "life_expectancy": 80.2,
+        "rdcs": 0.23,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.19,
+        "lon": -81.56
+      },
+      {
+        "id": "32266",
+        "name": "32266",
+        "population": 7168,
+        "life_expectancy": 83.0,
+        "rdcs": 0.0,
+        "placed_resource": null,
+        "adoption": 0.7,
+        "sentiment": 0.13,
+        "lat": 30.32,
+        "lon": -81.4
+      },
+      {
+        "id": "32277",
+        "name": "32277",
+        "population": 36338,
+        "life_expectancy": 76.8,
+        "rdcs": 0.71,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.37,
+        "lon": -81.6
+      },
+      {
+        "id": "32218",
+        "name": "32218",
+        "population": 72905,
+        "life_expectancy": 74.6,
+        "rdcs": 0.51,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.44,
+        "lon": -81.64
+      },
+      {
+        "id": "32219",
+        "name": "32219",
+        "population": 14302,
+        "life_expectancy": 74.3,
+        "rdcs": 0.51,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.42,
+        "lon": -81.7
+      },
+      {
+        "id": "32220",
+        "name": "32220",
+        "population": 12298,
+        "life_expectancy": 73.2,
+        "rdcs": 0.41,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.37,
+        "lon": -81.77
+      },
+      {
+        "id": "32221",
+        "name": "32221",
+        "population": 32833,
+        "life_expectancy": 77.5,
+        "rdcs": 0.46,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.34,
+        "lon": -81.77
+      },
+      {
+        "id": "32222",
+        "name": "32222",
+        "population": 18258,
+        "life_expectancy": 78.3,
+        "rdcs": 0.47,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.31,
+        "lon": -81.77
+      },
+      {
+        "id": "32224",
+        "name": "32224",
+        "population": 42092,
+        "life_expectancy": 80.9,
+        "rdcs": 0.13,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.26,
+        "lon": -81.51
+      },
+      {
+        "id": "32225",
+        "name": "32225",
+        "population": 55905,
+        "life_expectancy": 79.1,
+        "rdcs": 0.23,
+        "placed_resource": null,
+        "adoption": 0.72,
+        "sentiment": 0.16,
+        "lat": 30.31,
+        "lon": -81.51
+      },
+      {
+        "id": "32226",
+        "name": "32226",
+        "population": 21256,
+        "life_expectancy": 76.4,
+        "rdcs": 0.0,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.42,
+        "lon": -81.51
+      },
+      {
+        "id": "32227",
+        "name": "32227",
+        "population": 3207,
+        "life_expectancy": 72.7,
+        "rdcs": 0.38,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.35,
+        "lon": -81.49
+      },
+      {
+        "id": "32233",
+        "name": "32233",
+        "population": 24633,
+        "life_expectancy": 77.0,
+        "rdcs": 0.37,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.34,
+        "lon": -81.43
+      },
+      {
+        "id": "32234",
+        "name": "32234",
+        "population": 9678,
+        "life_expectancy": 74.7,
+        "rdcs": 0.08,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.27,
+        "lon": -81.81
+      },
+      {
+        "id": "32244",
+        "name": "32244",
+        "population": 63592,
+        "life_expectancy": 75.6,
+        "rdcs": 0.67,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.24,
+        "lon": -81.75
+      },
+      {
+        "id": "32246",
+        "name": "32246",
+        "population": 62562,
+        "life_expectancy": 77.2,
+        "rdcs": 0.44,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.31,
+        "lon": -81.54
+      },
+      {
+        "id": "32250",
+        "name": "32250",
+        "population": 29072,
+        "life_expectancy": 79.0,
+        "rdcs": 0.05,
+        "placed_resource": null,
+        "adoption": 0,
+        "sentiment": 0,
+        "lat": 30.29,
+        "lon": -81.41
+      }
+    ],
+    "edges": [
+      {
+        "source": "32202",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32202",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32202",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32202",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32202",
+        "target": "32208",
+        "weight": 1.0
+      },
+      {
+        "source": "32204",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32204",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32204",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32204",
+        "target": "32208",
+        "weight": 1.0
+      },
+      {
+        "source": "32205",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32205",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32205",
+        "target": "32208",
+        "weight": 1.0
+      },
+      {
+        "source": "32206",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32206",
+        "target": "32208",
+        "weight": 1.0
+      },
+      {
+        "source": "32207",
+        "target": "32208",
+        "weight": 1.0
+      },
+      {
+        "source": "32209",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32209",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32209",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32209",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32209",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32210",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32210",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32210",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32210",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32210",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32211",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32211",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32211",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32211",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32211",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32212",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32212",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32212",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32212",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32212",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32216",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32216",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32216",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32216",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32216",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32217",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32217",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32217",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32217",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32217",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32223",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32223",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32223",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32223",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32223",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32254",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32254",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32254",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32254",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32254",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32256",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32256",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32256",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32256",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32256",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32257",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32257",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32257",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32257",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32257",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32258",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32258",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32258",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32258",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32258",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32266",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32266",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32266",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32266",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32266",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32277",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32277",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32277",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32277",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32277",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32218",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32218",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32218",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32218",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32218",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32219",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32219",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32219",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32219",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32219",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32220",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32220",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32220",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32220",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32220",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32221",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32221",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32221",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32221",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32221",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32222",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32222",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32222",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32222",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32222",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32224",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32224",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32224",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32224",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32224",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32225",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32225",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32225",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32225",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32225",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32226",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32226",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32226",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32226",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32226",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32227",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32227",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32227",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32227",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32227",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32228",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32228",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32228",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32228",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32228",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32233",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32233",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32233",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32233",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32233",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32234",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32234",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32234",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32234",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32234",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32244",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32244",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32244",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32244",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32244",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32246",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32246",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32246",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32246",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32246",
+        "target": "32207",
+        "weight": 1.0
+      },
+      {
+        "source": "32250",
+        "target": "32202",
+        "weight": 1.0
+      },
+      {
+        "source": "32250",
+        "target": "32204",
+        "weight": 1.0
+      },
+      {
+        "source": "32250",
+        "target": "32205",
+        "weight": 1.0
+      },
+      {
+        "source": "32250",
+        "target": "32206",
+        "weight": 1.0
+      },
+      {
+        "source": "32250",
+        "target": "32207",
+        "weight": 1.0
+      }
+    ]
+  }
+}
