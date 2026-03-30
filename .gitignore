@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Build output
+app/dist/
+
+# Environment & secrets
+.env
+app/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Screenshots & debug artifacts
+*.png
+!app/public/images/*.png
+
+# Playwright
+.playwright-mcp/
+
+# Conductor workspace
+.context/
+
+# MiroFish clone (large)
+mirofish/
+
+# Misc
+public/data/

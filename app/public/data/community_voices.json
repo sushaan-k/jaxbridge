@@ -1,0 +1,286 @@
+{
+  "source": "Reddit r/jacksonville + r/duval (public posts)",
+  "methodology": "Public subreddit posts scraped for community health themes. No usernames or personal data stored. Only aggregated themes and representative language patterns used for AI agent persona enrichment.",
+  "privacy_note": "All data sourced from public Reddit posts. No individual identification. Used only for creating realistic but synthetic agent personas.",
+  "stats": {
+    "total_posts": 200,
+    "health_relevant": 47
+  },
+  "themes": {
+    "concern_categories": {
+      "housing_cost": 16,
+      "transportation": 15,
+      "green_space": 15,
+      "food_access": 6,
+      "healthcare": 6,
+      "safety": 3,
+      "education": 3,
+      "mental_health": 1
+    },
+    "area_mentions": {
+      "32202": 5,
+      "32216": 4,
+      "32266": 3,
+      "32210": 3,
+      "32209": 1,
+      "32254": 1
+    },
+    "common_phrases": {
+      "community events": 2,
+      "proud business": 1,
+      "business you": 1,
+      "own business": 1,
+      "business take": 1,
+      "regency parking": 1,
+      "parking lot": 1,
+      "this business": 1,
+      "business does": 1,
+      "and busy": 1,
+      "busy busy": 1,
+      "busy every": 1,
+      "nocatee parkway": 1,
+      "parkway ramp": 1,
+      "and food": 1,
+      "food recs": 1,
+      "dog parks": 1,
+      "parks just": 1,
+      "opening business": 1,
+      "business area": 1,
+      "open business": 1,
+      "business coffee": 1,
+      "for health": 1,
+      "health has": 1,
+      "about health": 1,
+      "health and": 1,
+      "orange park": 1,
+      "park mall": 1,
+      "march community": 1,
+      "the park": 1
+    }
+  },
+  "persona_seeds": [
+    {
+      "concern_category": "housing_cost",
+      "voice_sample": "rent went up 40% and I'm barely making it",
+      "prevalence": 16
+    },
+    {
+      "concern_category": "housing_cost",
+      "voice_sample": "choosing between paying rent and buying groceries",
+      "prevalence": 16
+    },
+    {
+      "concern_category": "housing_cost",
+      "voice_sample": "there's no affordable housing left in a safe area",
+      "prevalence": 16
+    },
+    {
+      "concern_category": "transportation",
+      "voice_sample": "the bus only comes once an hour and stops running at 8pm",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "transportation",
+      "voice_sample": "I can't get to my doctor appointments without a car",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "transportation",
+      "voice_sample": "spending 2 hours each way on public transit to work",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "transportation",
+      "voice_sample": "ride-sharing costs more than I can afford regularly",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "green_space",
+      "voice_sample": "there's nowhere safe for my kids to play outside",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "green_space",
+      "voice_sample": "the park near us hasn't been maintained in years",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "green_space",
+      "voice_sample": "I drive 20 minutes just to find a decent walking trail",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "green_space",
+      "voice_sample": "we need more community spaces where people can gather",
+      "prevalence": 15
+    },
+    {
+      "concern_category": "food_access",
+      "voice_sample": "the closest grocery store is a 45-minute bus ride",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "food_access",
+      "voice_sample": "we mostly eat from the corner store and dollar general",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "food_access",
+      "voice_sample": "I wish we had a farmers market on this side of town",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "food_access",
+      "voice_sample": "fresh produce is so expensive at the only store near me",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "healthcare",
+      "voice_sample": "worried about finding a doctor who accepts my insurance",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "healthcare",
+      "voice_sample": "the nearest hospital is 30 minutes away",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "healthcare",
+      "voice_sample": "I can't afford my medications this month",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "healthcare",
+      "voice_sample": "my kids haven't seen a pediatrician in over a year",
+      "prevalence": 6
+    },
+    {
+      "concern_category": "safety",
+      "voice_sample": "I don't let my kids walk to school because of safety",
+      "prevalence": 3
+    },
+    {
+      "concern_category": "safety",
+      "voice_sample": "we need better street lighting in our neighborhood",
+      "prevalence": 3
+    },
+    {
+      "concern_category": "safety",
+      "voice_sample": "crime has gotten worse and it feels like nobody cares",
+      "prevalence": 3
+    },
+    {
+      "concern_category": "education",
+      "voice_sample": "the schools in our area are underfunded compared to the beaches",
+      "prevalence": 3
+    },
+    {
+      "concern_category": "education",
+      "voice_sample": "my kids need after-school programs but we can't afford them",
+      "prevalence": 3
+    },
+    {
+      "concern_category": "mental_health",
+      "voice_sample": "I've been dealing with depression but can't find a therapist nearby",
+      "prevalence": 1
+    },
+    {
+      "concern_category": "mental_health",
+      "voice_sample": "the stress of living paycheck to paycheck is overwhelming",
+      "prevalence": 1
+    },
+    {
+      "concern_category": "mental_health",
+      "voice_sample": "my community needs mental health support, not just physical health",
+      "prevalence": 1
+    },
+    {
+      "concern_category": "local_identity",
+      "voice_sample": "Living in the downtown area of Jacksonville",
+      "zip_code": "32202",
+      "prevalence": 5
+    },
+    {
+      "concern_category": "local_identity",
+      "voice_sample": "Living in the southside area of Jacksonville",
+      "zip_code": "32216",
+      "prevalence": 4
+    },
+    {
+      "concern_category": "local_identity",
+      "voice_sample": "Living in the neptune beach area of Jacksonville",
+      "zip_code": "32266",
+      "prevalence": 3
+    },
+    {
+      "concern_category": "local_identity",
+      "voice_sample": "Living in the ortega area of Jacksonville",
+      "zip_code": "32210",
+      "prevalence": 3
+    },
+    {
+      "concern_category": "local_identity",
+      "voice_sample": "Living in the northwest area of Jacksonville",
+      "zip_code": "32209",
+      "prevalence": 1
+    },
+    {
+      "concern_category": "local_identity",
+      "voice_sample": "Living in the westside area of Jacksonville",
+      "zip_code": "32254",
+      "prevalence": 1
+    }
+  ],
+  "top_community_posts": [
+    {
+      "title": "Fire on Arlington",
+      "excerpt": "",
+      "score": 574
+    },
+    {
+      "title": "Community Events! March 23rd - March 29th \u2b07\ufe0f",
+      "excerpt": "Community Events in Jacksonville, FL \n\nMarch 23rd - March 29th\n\nMonday, March 23rd\n\n\\- Free Pilates 6pm @ Riverside Arts Market \n\n\\- Free HIIT Class w/ LA Fitness 6pm @ RiversEdge\n\n\\- Line Dancing 6:3",
+      "score": 229
+    },
+    {
+      "title": "Dogs tied up outside Regency Mall",
+      "excerpt": "This is the second time I\u2019ve driven through the regency parking lot and seen these dogs tied up outside this business\u2026does anyone know anything about this? ",
+      "score": 191
+    },
+    {
+      "title": "my gf lost her cat please help",
+      "excerpt": "my girlfriends cat is lost she had an airtag and it was updating the location on us1 right at the nocatee parkway on ramp. it was just the airtag when we went to find it no collar no nothing just the ",
+      "score": 182
+    },
+    {
+      "title": "Jacksonville restaurant inspection scores are wild \u2014 one place scored 8.5 out of 100",
+      "excerpt": "Was looking through Florida's public DBPR inspection data for Duval County. Some places scored under 25/100 while others got perfect 100s. The Beaches area is way cleaner than downtown overall.",
+      "score": 172
+    },
+    {
+      "title": "Those arent Mayport Shrimp",
+      "excerpt": "",
+      "score": 91
+    },
+    {
+      "title": "HIT AND RUN, BE ON LOOK OUT",
+      "excerpt": "Fiancee got into a hit and run tonight (1:30am) with a WHITE FORD MUSTANG MACH-E that blasted through a red light at the corner of Southside and Atlantic. Fiancee is ok apart from severe bruising. If ",
+      "score": 60
+    },
+    {
+      "title": "Gas Prices",
+      "excerpt": "Ain't new, but it never gets old. (Near Jacksonville Beach)\n\nEdit : It's worse near Southside and Circle K \ud83d\ude03",
+      "score": 36
+    },
+    {
+      "title": "Beagle play dates???",
+      "excerpt": "Are there any beagle meet ups at any dog parks?? We just adopted this handsome devil \ud83d\ude08 and want to socialize him. ",
+      "score": 28
+    },
+    {
+      "title": "Who should I call?",
+      "excerpt": "The two houses right next to each other with dogs chained up in the yard. Can I call someone to do some sorta welfare check? \n\nBefore anyone comments to mind my own business, take care of your damn an",
+      "score": 27
+    }
+  ]
+}

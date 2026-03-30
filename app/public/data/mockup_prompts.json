@@ -1,0 +1,29 @@
+{
+  "placement_mockups": [
+    {
+      "resource_id": "health_center",
+      "zip": "32209",
+      "filename": "mockup-health-center-32209.png",
+      "prompt": "Architectural rendering of a modern community health center in a low-income urban neighborhood in Jacksonville, Florida. Single-story building with warm brick facade, large glass entrance doors, covered walkway with benches. Sign reads 'Northwest Community Health Center'. Small parking lot with a free shuttle bus parked outside. Mature oak trees providing shade. Diverse group of residents walking in — elderly man with a cane, young mother with stroller, teenager. Warm golden hour lighting. Realistic architectural visualization style, eye-level perspective. The surrounding area shows modest residential homes typical of Jacksonville's Northside. No text overlays.",
+      "negative_prompt": "cartoon, anime, watermark, text overlay, unrealistic, futuristic, skyscraper",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "resource_id": "grocery_coop",
+      "zip": "32208",
+      "filename": "mockup-grocery-coop-32208.png",
+      "prompt": "Architectural rendering of a community grocery cooperative in North Jacksonville, Florida. Modern but approachable single-story building with large windows showing fresh produce displays inside. Covered outdoor area with wooden tables for the community garden section. Colorful awning in green and white. Sign reads 'North Jax Community Co-op'. Outdoor produce stand with crates of fresh fruits and vegetables. A small community garden with raised beds visible on the side. Diverse neighborhood residents shopping — older woman examining tomatoes, father and child carrying bags. Warm afternoon light, slightly overcast Florida sky. Realistic architectural visualization, street-level view. Surrounding area shows a typical Jacksonville neighborhood with mature trees and modest commercial buildings.",
+      "negative_prompt": "cartoon, anime, watermark, text overlay, luxury, high-end, unrealistic",
+      "aspect_ratio": "16:9"
+    },
+    {
+      "resource_id": "wellness_park",
+      "zip": "32210",
+      "filename": "mockup-wellness-park-32210.png",
+      "prompt": "Aerial architectural rendering of a 50-acre urban wellness park in Jacksonville, Florida's Westside neighborhood. Paved walking trail winding through natural Florida landscape with live oaks draped in Spanish moss. Modern outdoor fitness station with pull-up bars and resistance equipment. Small recreation center building with clean modern design in background. Splash pad area with children playing. Community basketball court. Saturday farmers market with white tent canopies in a row. Diverse residents using the park — joggers on the trail, seniors on benches, families at the splash pad. Late morning Florida sunlight, blue sky with scattered clouds. Realistic landscape architecture visualization, drone-style elevated perspective showing the full park layout integrated into the surrounding residential neighborhood.",
+      "negative_prompt": "cartoon, anime, watermark, text overlay, unrealistic, desert, snow",
+      "aspect_ratio": "16:9"
+    }
+  ],
+  "instructions": "Generate these images at 1024x576 (16:9) resolution. Place the output files in app/public/images/ with the filenames specified above. Then update the Scorecard page to reference them in each expanded placement card."
+}

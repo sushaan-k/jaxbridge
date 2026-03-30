@@ -1,0 +1,323 @@
+{
+  "methodology": "SCAN counterfactual: for each Critical Desert ZIP, features worse than county median are replaced with median values. Gain is estimated by computing each feature's share of the total life expectancy range (14 years) weighted by SCAN attention importance, multiplied by the fraction of the feature gap closed. A 70% efficiency factor accounts for diminishing returns and interaction effects. Model: SCAN (CV R\u00b2=0.99, 218 tracts, 20 features).",
+  "model": "SCAN (Spatial Causal Attention Network)",
+  "model_performance": {
+    "cv_r2": 0.9941,
+    "mae_years": 0.09,
+    "training_samples": 218
+  },
+  "county_medians": {
+    "median_income": 73570.0,
+    "poverty_rate": 10.9,
+    "svi_score": 0.56,
+    "uninsured_rate": 13.8,
+    "disability": 30.9,
+    "food_desert_rate": 60.45,
+    "park_acres_per_1k": 8.77,
+    "physician_access": 0.93,
+    "mental_health_per_10k": 15.04,
+    "smoking": 14.3,
+    "obesity": 33.5,
+    "physical_inactivity": 27.1,
+    "binge_drinking": 0,
+    "depression": 20.1,
+    "high_blood_pressure": 35.1,
+    "diabetes": 0,
+    "heart_disease": 0,
+    "copd": 0,
+    "stroke": 0,
+    "fair_poor_health": 20.25
+  },
+  "counterfactuals": [
+    {
+      "geoid": "32209",
+      "label": "ZIP Code 32209",
+      "actual_life_exp": 68.6554,
+      "predicted_life_exp": 68.9,
+      "counterfactual_life_exp": 73.9,
+      "projected_gain": 5.26,
+      "changes_applied": {
+        "median_income": {
+          "from": 30514.0,
+          "to": 73570.0
+        },
+        "poverty_rate": {
+          "from": 37.6,
+          "to": 10.9
+        },
+        "svi_score": {
+          "from": 0.94,
+          "to": 0.56
+        },
+        "uninsured_rate": {
+          "from": 19.5,
+          "to": 13.8
+        },
+        "disability": {
+          "from": 46.3,
+          "to": 30.9
+        },
+        "park_acres_per_1k": {
+          "from": 3.45,
+          "to": 8.77
+        },
+        "smoking": {
+          "from": 23.3,
+          "to": 14.3
+        },
+        "obesity": {
+          "from": 48.0,
+          "to": 33.5
+        },
+        "physical_inactivity": {
+          "from": 44.0,
+          "to": 27.1
+        },
+        "high_blood_pressure": {
+          "from": 51.9,
+          "to": 35.1
+        },
+        "fair_poor_health": {
+          "from": 37.6,
+          "to": 20.25
+        }
+      }
+    },
+    {
+      "geoid": "32254",
+      "label": "ZIP Code 32254",
+      "actual_life_exp": 70.6256,
+      "predicted_life_exp": 70.8,
+      "counterfactual_life_exp": 75.3,
+      "projected_gain": 4.69,
+      "changes_applied": {
+        "median_income": {
+          "from": 34953.0,
+          "to": 73570.0
+        },
+        "poverty_rate": {
+          "from": 33.7,
+          "to": 10.9
+        },
+        "svi_score": {
+          "from": 0.93,
+          "to": 0.56
+        },
+        "uninsured_rate": {
+          "from": 20.1,
+          "to": 13.8
+        },
+        "disability": {
+          "from": 43.0,
+          "to": 30.9
+        },
+        "food_desert_rate": {
+          "from": 82.1,
+          "to": 60.45
+        },
+        "park_acres_per_1k": {
+          "from": 8.56,
+          "to": 8.77
+        },
+        "physician_access": {
+          "from": 0.29,
+          "to": 0.93
+        },
+        "smoking": {
+          "from": 24.4,
+          "to": 14.3
+        },
+        "obesity": {
+          "from": 44.3,
+          "to": 33.5
+        },
+        "physical_inactivity": {
+          "from": 40.5,
+          "to": 27.1
+        },
+        "depression": {
+          "from": 20.7,
+          "to": 20.1
+        },
+        "high_blood_pressure": {
+          "from": 45.5,
+          "to": 35.1
+        },
+        "fair_poor_health": {
+          "from": 34.1,
+          "to": 20.25
+        }
+      }
+    },
+    {
+      "geoid": "32208",
+      "label": "ZIP Code 32208",
+      "actual_life_exp": 70.8223,
+      "predicted_life_exp": 71.0,
+      "counterfactual_life_exp": 74.7,
+      "projected_gain": 3.84,
+      "changes_applied": {
+        "median_income": {
+          "from": 41324.0,
+          "to": 73570.0
+        },
+        "poverty_rate": {
+          "from": 28.1,
+          "to": 10.9
+        },
+        "svi_score": {
+          "from": 0.9,
+          "to": 0.56
+        },
+        "uninsured_rate": {
+          "from": 17.4,
+          "to": 13.8
+        },
+        "disability": {
+          "from": 43.3,
+          "to": 30.9
+        },
+        "food_desert_rate": {
+          "from": 75.3,
+          "to": 60.45
+        },
+        "smoking": {
+          "from": 21.5,
+          "to": 14.3
+        },
+        "obesity": {
+          "from": 45.7,
+          "to": 33.5
+        },
+        "physical_inactivity": {
+          "from": 40.7,
+          "to": 27.1
+        },
+        "high_blood_pressure": {
+          "from": 50.6,
+          "to": 35.1
+        },
+        "fair_poor_health": {
+          "from": 33.9,
+          "to": 20.25
+        }
+      }
+    },
+    {
+      "geoid": "32206",
+      "label": "ZIP Code 32206",
+      "actual_life_exp": 70.7455,
+      "predicted_life_exp": 70.9,
+      "counterfactual_life_exp": 75.2,
+      "projected_gain": 4.42,
+      "changes_applied": {
+        "median_income": {
+          "from": 39242.0,
+          "to": 73570.0
+        },
+        "poverty_rate": {
+          "from": 32.4,
+          "to": 10.9
+        },
+        "svi_score": {
+          "from": 0.95,
+          "to": 0.56
+        },
+        "uninsured_rate": {
+          "from": 18.9,
+          "to": 13.8
+        },
+        "disability": {
+          "from": 43.2,
+          "to": 30.9
+        },
+        "food_desert_rate": {
+          "from": 75.2,
+          "to": 60.45
+        },
+        "park_acres_per_1k": {
+          "from": 8.3,
+          "to": 8.77
+        },
+        "mental_health_per_10k": {
+          "from": 12.28,
+          "to": 15.04
+        },
+        "smoking": {
+          "from": 24.0,
+          "to": 14.3
+        },
+        "obesity": {
+          "from": 46.3,
+          "to": 33.5
+        },
+        "physical_inactivity": {
+          "from": 40.9,
+          "to": 27.1
+        },
+        "high_blood_pressure": {
+          "from": 48.1,
+          "to": 35.1
+        },
+        "fair_poor_health": {
+          "from": 35.3,
+          "to": 20.25
+        }
+      }
+    },
+    {
+      "geoid": "32202",
+      "label": "ZIP Code 32202",
+      "actual_life_exp": 73.0944,
+      "predicted_life_exp": 73.2,
+      "counterfactual_life_exp": 77.8,
+      "projected_gain": 4.68,
+      "changes_applied": {
+        "median_income": {
+          "from": 34825.0,
+          "to": 73570.0
+        },
+        "poverty_rate": {
+          "from": 23.2,
+          "to": 10.9
+        },
+        "svi_score": {
+          "from": 0.93,
+          "to": 0.56
+        },
+        "uninsured_rate": {
+          "from": 27.4,
+          "to": 13.8
+        },
+        "disability": {
+          "from": 48.9,
+          "to": 30.9
+        },
+        "smoking": {
+          "from": 31.8,
+          "to": 14.3
+        },
+        "obesity": {
+          "from": 47.5,
+          "to": 33.5
+        },
+        "physical_inactivity": {
+          "from": 45.4,
+          "to": 27.1
+        },
+        "depression": {
+          "from": 21.4,
+          "to": 20.1
+        },
+        "high_blood_pressure": {
+          "from": 46.5,
+          "to": 35.1
+        },
+        "fair_poor_health": {
+          "from": 41.1,
+          "to": 20.25
+        }
+      }
+    }
+  ]
+}
