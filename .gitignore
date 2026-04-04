@@ -25,6 +25,7 @@ __pycache__/
 # Screenshots & debug artifacts
 *.png
 !app/public/images/*.png
+!docs/*.png
 
 # Playwright
 .playwright-mcp/
